@@ -44,6 +44,7 @@ namespace HatenaPopularTweetFunction
                 }
                 StringBuilder sb = new();
                 sb.AppendLine(item.Title);
+                sb.AppendLine("#エンジニアと繋がりたい");
                 sb.AppendLine("#駆け出しエンジニアと繋がりたい");
                 sb.AppendLine(item.Link);
                 var parameters = new Dictionary<string, string>()
