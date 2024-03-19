@@ -38,7 +38,7 @@ namespace HatenaPopularTweetFunction
 
             foreach (var item in feedItems)
             {
-                if (item.BookmarkCount < 100)
+                if (item.BookmarkCount < 200)
                 {
                     continue;
                 }
