@@ -43,6 +43,7 @@ namespace HatenaPopularTweetFunction
                     continue;
                 }
                 StringBuilder sb = new();
+                sb.AppendLine("【ネット人気記事の自動投稿】");
                 sb.AppendLine(item.Title);
                 sb.AppendLine("#エンジニアと繋がりたい");
                 sb.AppendLine("#駆け出しエンジニアと繋がりたい");
